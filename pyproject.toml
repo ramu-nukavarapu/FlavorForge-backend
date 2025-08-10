@@ -1,5 +1,5 @@
 [project]
-name = "FlavorForge-backend"
+name = "backend"
 version = "0.1.0"
 description = "A modular FastAPI backend"
 requires-python = ">=3.11"
@@ -8,6 +8,8 @@ dependencies = [
     "uvicorn",
     "pandas",
 ]
+
+packages = [{include = "backend"}]
 
 [build-system]
 requires = ["hatchling"]
