@@ -12,3 +12,7 @@ dependencies = [
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+# Add this section to configure hatchling
+[tool.hatch.build.targets.sdist]
+packages = ["src"]
