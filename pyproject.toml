@@ -7,7 +7,12 @@ dependencies = [
     "uvicorn",
     "pandas",
 ]
-requires-python = ">=3.9"
+
+requires-python = ">=3.11"
 
 [tool.uv]
 python = "3.11"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
