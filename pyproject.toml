@@ -9,6 +9,6 @@ dependencies = [
     "pandas",
 ]
 
-[tool.uv.build-backend]
-module-name = "app"
-namespace = true
+[build-system]
+requires = ["uv"]
+build-backend = "uv"
