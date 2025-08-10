@@ -1,5 +1,5 @@
 [project]
-name = "backend"
+name = "app"
 version = "0.1.0"
 description = "A modular FastAPI backend"
 requires-python = ">=3.11"
@@ -9,7 +9,7 @@ dependencies = [
     "pandas",
 ]
 
-packages = [{include = "backend"}]
+packages = [{include = "app"}]
 
 [build-system]
 requires = ["hatchling"]
