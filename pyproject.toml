@@ -1,5 +1,5 @@
 [project]
-name = "app"
+name = "FlavorForge-backend"
 version = "0.1.0"
 description = "A modular FastAPI backend"
 requires-python = ">=3.11"
